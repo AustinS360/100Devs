@@ -6,18 +6,68 @@ body{
 }
 
 .navBar{
-    background-color:   black;
+    background-color:black;
     display: flex;
+    height: 100%;        
 }
 
 .navbarLeft{
-    margin: 5px;
+    margin: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;}
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
 
+.logo{
+    border-right: 1px solid white;
+
+}
+
+.signin{
+    border-left: 1px solid white;
+}
 
 .navbarMid{
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    height: 45px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 80%;
+    height: 100%;
+    border-left: 1px solid white;
+}
+
+.navbarRight{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;}
+
+.titletime{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+}
+
+.titleleft{
+    
+}
+.timeright{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
 }
