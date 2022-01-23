@@ -1,0 +1,31 @@
+body{
+    margin:20px;
+    padding:20px;
+    background-color: #97cce8;
+    border: #70ca4d solid 5px;
+    color: white;
+    
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    font-size: 24px;
+}
+
+.portfolio{
+    border-left: grey 3px solid;
+    padding: 3px;
+
+}
+
+.article1{
+    text-align: left;
+}
+
+a{
+    color:green;
+}
