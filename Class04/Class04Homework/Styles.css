@@ -16,10 +16,11 @@ header{
 nav{
     text-align: center;
     font-size: 24px;
+    margin-left: 15px;
 }
 
 strong, h1{
-    margin-left: 50px;}
+    margin-left: 25px;}
 
 footer{
     display: flex;
@@ -29,12 +30,12 @@ footer{
 }
 
 article{
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .portfolio{
     border-left: grey 3px solid;
-    padding: 3px;
+    padding: 5px;
 }
 
 .bord{
@@ -52,13 +53,20 @@ article{
     word-wrap: break-word;
 }
 
+.article2{
+    margin-right: 25px;
+}
+
 .leon{
     height: 300px;
-    max-width: 100%;
-    float: right;
-    logo
+    max-width: 100px;
+    float: right
 }
 
 a{
     color: green;
+    
+}
+.about {
+   color: white;
 }
