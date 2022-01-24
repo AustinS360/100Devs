@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 body{
-    margin:20px;
-    padding:20px;
-    background-color: #97cce8;
+    margin: 20px 500px 500px;
+    background-color:  lightskyblue;
     border: #70ca4d solid 5px;
     color: white;
-    
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 header{
@@ -16,16 +18,47 @@ nav{
     font-size: 24px;
 }
 
+strong, h1{
+    margin-left: 50px;}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+article{
+    margin-left: 50px;
+}
+
 .portfolio{
     border-left: grey 3px solid;
     padding: 3px;
+}
 
+.bord{
+    border-left: gray solid 3px;
+}
+
+.foot{
+    padding: 5px;
 }
 
 .article1{
     text-align: left;
+    max-width: 80%;
+    max-height: 100%;
+    word-wrap: break-word;
+}
+
+.leon{
+    height: 300px;
+    max-width: 100%;
+    float: right;
+    logo
 }
 
 a{
-    color:green;
+    color: green;
 }
