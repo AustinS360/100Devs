@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -30,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Noto Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -66,20 +68,21 @@ header ul > li{
 
 .links{
     display: inline;
-    width: 10%;
+    width: 30%;
     margin-left: 5%;
     padding: 0.5em;
 }
 
 .main-container{
-    background-color:gray;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('./images/gymbg.jpg');
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
 .logo{
     display: inline-block;
     height: 70%;
-    width: 3%;
+    width: 15%;
     position: relative;
     top: 20%;
     right: -31.5%
@@ -117,6 +120,8 @@ main > a{
     display: inline;
     position: relative;
     right: 1%;
+    color: white;
+    font-weight: bold;
 }
 
 main a > img{
@@ -158,6 +163,7 @@ main a > img{
 .visit-text{
     margin-left:25%;
     margin-right:25%;
+    line-height: 1.5em;
 }
 .visit-heading{
     margin-top: 1.5em;
@@ -169,8 +175,74 @@ main a > img{
 
 /*Footer*/
 footer{
-    height:40vh;
-    background-color: darkblue;
+    height:45vh;
+    background-color: #161f2a;
+    color: white;
+}
+
+.left > span {
+    margin-left: 7%;
+    line-height: 2em;
+    color: #617285;
+}
+
+.left > a{
+    margin-left: 7%;
+    line-height: 2em;
+    color: white;
+
+}
+
+.left{
+    width: 50%;
+    height: 70%;
+    display: inline-block;
+}
+
+.icons{
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.fb, .twitter,.email{
+    padding: 1em;
+}
+
+.right{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    height: 70%;
+}
+
+.right > span{
+    display: inline-block;
+    position:relative;
+    left: 65%;
+    top: 35%;
+} 
+
+.margin{
+    margin-bottom: 1em;
+}
+
+.bottom{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    height: 10vh;
+    border-top: solid white 2px;
+}
+
+.bottom > p{
+    position: relative;
+    top: 50%;
+}
+
+.lg-foot{
+    display: inline-block;
+    float: right;
+    margin-top: 1em;
 }
 
 /*===================================================
@@ -181,6 +253,7 @@ footer{
 
 header li > a{
     text-decoration: none;
+    color: white;
 }
 
 .donate-style{
@@ -205,7 +278,7 @@ main > h1{
 
 main > p{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* why styles */
@@ -220,6 +293,7 @@ section > h1{
  section > p{
     font-size: 18px;
     line-height: 2em;
+    font-weight: 400;
 }
 
 /* Visit Styles */
@@ -231,12 +305,14 @@ section > h1{
     border: 1px solid black;
     font-size: 18px;
     font-weight: 700;
+}.visit-text{
+    font-weight: 400;
 }
-
 .visit-heading{
     font-size: 24px;
     font-weight: 700;
 }
+
 
 /* Volunteer Styles */
 
@@ -266,4 +342,24 @@ section > h1{
     font-size: 18px;
     font-weight: 700;
     margin-top: 2em;
+}
+
+/* Footer Styles */
+
+.left > a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ali{
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.bottom > p{
+    font-weight: 700;
+}
+
+.style{
+    font-weight: 700;
 }
