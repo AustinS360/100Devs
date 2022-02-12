@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+/*
+*{
+    outline: 1px red solid;
+}
+*/
+
+/* LAYOUT */
+
+.container-main{
+    height: 150vh;
+    background-image: url(./FLRLv-dWQAEcjoa.jpeg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position:right top 20%;
+    background-color: #f5f9fc;
+    color: #304659;
+}
+
+/* Navigation */
+
+header > nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f9fc;
+    align-items: center;
+}
+
+.left, .middle, .right{
+    width: 33%;
+}
+
+.left{
+    margin:10px;
+    margin-left: 2em;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.middle{
+    margin: 10px;
+}
+
+.right{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    margin-right: 4.5em;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ /* hero */
+
+.hero{
+    height: 150vh;
+}
+
+.hero-content{
+    text-align: left;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+}
+
+.hero-content > p,  h1, form, span {
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+p,form, span {
+    margin-top: 30px;
+}
+
+.hero-content > h1{
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.text-input{
+    width: 400px;
+    height: 30px;
+    background-color: rgba(225,233,240,255);
+    border: 1px solid rgba(225,233,240,255);
+}
+
+.button-input{
+    height: 35px;
+    width: 100px;
+}
+
+.hero-bottom{
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f9fc;
+    margin-left: 10%;
+    margin-right: 0%;
+
+}
+
+
+.feature1,.feature2,.feature3,.feature4 {
+margin-left: 2.5%;
+margin-right: 3%;
+padding: 5px;
+margin-bottom: 0em;
+}
+
+img{
+    margin-bottom: 1.5em;
+    
+}
+
+/* Style */
+
+.button-style{
+    background-color: #304659;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #304659;
+}
+
+/* Media Queries */
