@@ -47,6 +47,13 @@ table {
 }
 
 /*======== Layout ========*/
+.main-container{
+	max-width: 100vh;
+	max-width: 100vw;
+}
 
-		/* Navbar */ 
-	
+	/* Navigation */
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
